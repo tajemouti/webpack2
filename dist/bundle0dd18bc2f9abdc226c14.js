@@ -84,6 +84,7 @@ h3 {
 img {
   width: 100px;
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 
 .joke {
@@ -111,7 +112,7 @@ img {
 .btn:focus {
   outline: 0;
 }
-`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,wBAAwB;EACxB,iCAAiC;EACjC,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,aAAa;EACb,gBAAgB;EAChB,SAAS;EACT,aAAa;AACf;;AAEA;EACE,yBAAyB;EACzB,mBAAmB;EACnB,wEAAwE;EACxE,kBAAkB;EAClB,kBAAkB;EAClB,eAAe;EACf,YAAY;AACd;;AAEA;EACE,SAAS;EACT,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,mBAAmB;EACnB,iBAAiB;EACjB,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,wBAAwB;EACxB,SAAS;EACT,mBAAmB;EACnB,uEAAuE;EACvE,kBAAkB;EAClB,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,UAAU;AACZ","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\");\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background-color: orange;\r\n  font-family: \"Roboto\", sans-serif;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  margin: 0;\r\n  padding: 20px;\r\n}\r\n\r\n.container {\r\n  background-color: #f4f4f4;\r\n  border-radius: 10px;\r\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  padding: 50px 20px;\r\n  text-align: center;\r\n  max-width: 100%;\r\n  width: 800px;\r\n}\r\n\r\nh3 {\r\n  margin: 0;\r\n  opacity: 0.5;\r\n  letter-spacing: 2px;\r\n}\r\n\r\nimg {\r\n  width: 100px;\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.joke {\r\n  font-size: 30px;\r\n  letter-spacing: 1px;\r\n  line-height: 40px;\r\n  margin: 50px auto;\r\n  max-width: 600px;\r\n}\r\n\r\n.btn {\r\n  background-color: orange;\r\n  border: 0;\r\n  border-radius: 10px;\r\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  padding: 14px 40px;\r\n  font-size: 16px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:active {\r\n  transform: scale(0.98);\r\n}\r\n\r\n.btn:focus {\r\n  outline: 0;\r\n}\r\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,wBAAwB;EACxB,iCAAiC;EACjC,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,aAAa;EACb,gBAAgB;EAChB,SAAS;EACT,aAAa;AACf;;AAEA;EACE,yBAAyB;EACzB,mBAAmB;EACnB,wEAAwE;EACxE,kBAAkB;EAClB,kBAAkB;EAClB,eAAe;EACf,YAAY;AACd;;AAEA;EACE,SAAS;EACT,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,mBAAmB;EACnB,iBAAiB;EACjB,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,wBAAwB;EACxB,SAAS;EACT,mBAAmB;EACnB,uEAAuE;EACvE,kBAAkB;EAClB,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,UAAU;AACZ","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\");\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background-color: orange;\r\n  font-family: \"Roboto\", sans-serif;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  margin: 0;\r\n  padding: 20px;\r\n}\r\n\r\n.container {\r\n  background-color: #f4f4f4;\r\n  border-radius: 10px;\r\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  padding: 50px 20px;\r\n  text-align: center;\r\n  max-width: 100%;\r\n  width: 800px;\r\n}\r\n\r\nh3 {\r\n  margin: 0;\r\n  opacity: 0.5;\r\n  letter-spacing: 2px;\r\n}\r\n\r\nimg {\r\n  width: 100px;\r\n  margin-bottom: 20px;\r\n  border-radius: 50%;\r\n}\r\n\r\n.joke {\r\n  font-size: 30px;\r\n  letter-spacing: 1px;\r\n  line-height: 40px;\r\n  margin: 50px auto;\r\n  max-width: 600px;\r\n}\r\n\r\n.btn {\r\n  background-color: orange;\r\n  border: 0;\r\n  border-radius: 10px;\r\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  padding: 14px 40px;\r\n  font-size: 16px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:active {\r\n  transform: scale(0.98);\r\n}\r\n\r\n.btn:focus {\r\n  outline: 0;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -558,13 +559,13 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assets/laughing.svg":
-/*!*********************************!*\
-  !*** ./src/assets/laughing.svg ***!
-  \*********************************/
+/***/ "./src/assets/Ajrass.jpg":
+/*!*******************************!*\
+  !*** ./src/assets/Ajrass.jpg ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "laughing.svg";
+module.exports = __webpack_require__.p + "Ajrass.jpg";
 
 /***/ }),
 
@@ -4721,12 +4722,12 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _generateJoke_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generateJoke.js */ "./src/generateJoke.js");
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
-/* harmony import */ var _assets_laughing_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/laughing.svg */ "./src/assets/laughing.svg");
+/* harmony import */ var _assets_Ajrass_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/Ajrass.jpg */ "./src/assets/Ajrass.jpg");
 
 
 
 var laughImg = document.getElementById('laughImg');
-laughImg.src = _assets_laughing_svg__WEBPACK_IMPORTED_MODULE_2__;
+laughImg.src = _assets_Ajrass_jpg__WEBPACK_IMPORTED_MODULE_2__;
 var jokeBtn = document.getElementById('jokeBtn');
 jokeBtn.addEventListener('click', _generateJoke_js__WEBPACK_IMPORTED_MODULE_0__["default"]);
 (0,_generateJoke_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
@@ -4734,4 +4735,4 @@ jokeBtn.addEventListener('click', _generateJoke_js__WEBPACK_IMPORTED_MODULE_0__[
 
 /******/ })()
 ;
-//# sourceMappingURL=bundled570032e9294f698d573.js.map
+//# sourceMappingURL=bundle0dd18bc2f9abdc226c14.js.map
