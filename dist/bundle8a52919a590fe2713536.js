@@ -53,7 +53,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `* {
 }
 
 body {
-  background-color: rgb(134, 9, 130);
+  background-color: rgb(182, 147, 181);
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -96,7 +96,7 @@ img {
 }
 
 .btn {
-  background-color: rgb(134, 9, 130);
+  background-color: rgb(182, 147, 181);
   color: #fff;
   font-weight: 700;
   border: 0;
@@ -114,7 +114,7 @@ img {
 .btn:focus {
   outline: 0;
 }
-`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,kCAAkC;EAClC,iCAAiC;EACjC,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,aAAa;EACb,gBAAgB;EAChB,SAAS;EACT,aAAa;AACf;;AAEA;EACE,yBAAyB;EACzB,mBAAmB;EACnB,wEAAwE;EACxE,kBAAkB;EAClB,kBAAkB;EAClB,eAAe;EACf,YAAY;AACd;;AAEA;EACE,SAAS;EACT,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,mBAAmB;EACnB,iBAAiB;EACjB,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,kCAAkC;EAClC,WAAW;EACX,gBAAgB;EAChB,SAAS;EACT,mBAAmB;EACnB,uEAAuE;EACvE,kBAAkB;EAClB,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,UAAU;AACZ","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\");\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background-color: rgb(134, 9, 130);\r\n  font-family: \"Roboto\", sans-serif;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  margin: 0;\r\n  padding: 20px;\r\n}\r\n\r\n.container {\r\n  background-color: #f4f4f4;\r\n  border-radius: 10px;\r\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  padding: 50px 20px;\r\n  text-align: center;\r\n  max-width: 100%;\r\n  width: 800px;\r\n}\r\n\r\nh3 {\r\n  margin: 0;\r\n  opacity: 0.5;\r\n  letter-spacing: 2px;\r\n}\r\n\r\nimg {\r\n  width: 100px;\r\n  margin-bottom: 20px;\r\n  border-radius: 50%;\r\n}\r\n\r\n.joke {\r\n  font-size: 30px;\r\n  letter-spacing: 1px;\r\n  line-height: 40px;\r\n  margin: 50px auto;\r\n  max-width: 600px;\r\n}\r\n\r\n.btn {\r\n  background-color: rgb(134, 9, 130);\r\n  color: #fff;\r\n  font-weight: 700;\r\n  border: 0;\r\n  border-radius: 10px;\r\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  padding: 14px 40px;\r\n  font-size: 16px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:active {\r\n  transform: scale(0.98);\r\n}\r\n\r\n.btn:focus {\r\n  outline: 0;\r\n}\r\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,oCAAoC;EACpC,iCAAiC;EACjC,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,aAAa;EACb,gBAAgB;EAChB,SAAS;EACT,aAAa;AACf;;AAEA;EACE,yBAAyB;EACzB,mBAAmB;EACnB,wEAAwE;EACxE,kBAAkB;EAClB,kBAAkB;EAClB,eAAe;EACf,YAAY;AACd;;AAEA;EACE,SAAS;EACT,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,mBAAmB;EACnB,iBAAiB;EACjB,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,oCAAoC;EACpC,WAAW;EACX,gBAAgB;EAChB,SAAS;EACT,mBAAmB;EACnB,uEAAuE;EACvE,kBAAkB;EAClB,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,UAAU;AACZ","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\");\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background-color: rgb(182, 147, 181);\r\n  font-family: \"Roboto\", sans-serif;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  height: 100vh;\r\n  overflow: hidden;\r\n  margin: 0;\r\n  padding: 20px;\r\n}\r\n\r\n.container {\r\n  background-color: #f4f4f4;\r\n  border-radius: 10px;\r\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  padding: 50px 20px;\r\n  text-align: center;\r\n  max-width: 100%;\r\n  width: 800px;\r\n}\r\n\r\nh3 {\r\n  margin: 0;\r\n  opacity: 0.5;\r\n  letter-spacing: 2px;\r\n}\r\n\r\nimg {\r\n  width: 100px;\r\n  margin-bottom: 20px;\r\n  border-radius: 50%;\r\n}\r\n\r\n.joke {\r\n  font-size: 30px;\r\n  letter-spacing: 1px;\r\n  line-height: 40px;\r\n  margin: 50px auto;\r\n  max-width: 600px;\r\n}\r\n\r\n.btn {\r\n  background-color: rgb(182, 147, 181);\r\n  color: #fff;\r\n  font-weight: 700;\r\n  border: 0;\r\n  border-radius: 10px;\r\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  padding: 14px 40px;\r\n  font-size: 16px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:active {\r\n  transform: scale(0.98);\r\n}\r\n\r\n.btn:focus {\r\n  outline: 0;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -4737,4 +4737,4 @@ jokeBtn.addEventListener('click', _generateJoke_js__WEBPACK_IMPORTED_MODULE_0__[
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle068f03e37a1cf2f804ab.js.map
+//# sourceMappingURL=bundle8a52919a590fe2713536.js.map

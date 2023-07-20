@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(134, 9, 130);
+  background-color: rgb(182, 147, 181);
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@ img {
 }
 
 .btn {
-  background-color: rgb(134, 9, 130);
+  background-color: rgb(182, 147, 181);
   color: #fff;
   font-weight: 700;
   border: 0;
